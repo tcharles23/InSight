@@ -14,13 +14,8 @@ class AuthScreen extends React.Component {
         <Button
           onPress={() => Auth.federatedSignIn({ provider: 'google' })}
           title="Signin"
-          icon={
-            <Icon
-              name="arrow-right"
-              size={15}
-              color="white"
-            />
-          }
+         large
+         outline="true"
         />
       </View>
     );
